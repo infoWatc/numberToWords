@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace ObjectMoneyExample
 {
     public class Money
@@ -30,7 +31,7 @@ namespace ObjectMoneyExample
             static decimal ReadValue()
             {
                 decimal resultVal;
-                bool didIt = decimal.TryParse(Console.ReadLine(), out resultVal);
+                decimal.TryParse(Console.ReadLine(), out resultVal);
                 return resultVal;
             }
 
